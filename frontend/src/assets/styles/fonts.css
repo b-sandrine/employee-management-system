@@ -1,0 +1,9 @@
+/* fonts.css */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Poppins Light'), local('Poppins-Light'),
+         url('/public/Poppins/Poppins-Light.ttf') format('woff2');
+  }

@@ -1,11 +1,17 @@
 import { useState } from "react";
 import { FaEnvelope, FaLock, FaUser, FaEye, FaEyeSlash } from "react-icons/fa";
+import { useNavigate } from "react-router";
 
 const Register = () => {
     const [viewPassword, setViewPassword] = useState(true);
+    const navigate = useNavigate();
 
     function ViewPassword() {
         setViewPassword(!viewPassword);
+    }
+
+    function handleNavigate () {
+        navigate('/login')
     }
 
     return (
@@ -36,10 +42,10 @@ const Register = () => {
                         <FaEyeSlash className="icon" onClick={ViewPassword}/>
                     }
                 </div>
-                <button>Sign In</button>
+                <button onClick={handleNavigate}>Register</button>
                 <div className="extra">
                     <p>OR</p>
-                    <p>Already an have account?<span>Login</span></p>
+                    <p>Already an have account?<span onClick={handleNavigate}>Login</span></p>
                 </div>
             </div>
             <div className="extras-dec"></div>
