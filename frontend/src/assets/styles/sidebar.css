@@ -1,0 +1,55 @@
+.links {
+    /* position: relative; */
+    padding-top: 110px;
+    width: 100%;
+    color: white;
+}
+
+.links .sidelink {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    height: 40px;
+    margin-bottom: 5px;
+    /* width: 85%; */
+    /* margin: 0 auto; */
+    border-radius: 5px;
+}
+
+.links .sidelink p {
+    margin-left: 10px;
+    padding-top: 1px;
+    font-weight: 500;
+}
+
+.links .lowerlinks {
+    position: absolute;
+    bottom: 30px;
+    width: 15%;
+}
+
+.links .lowerlinks .logout {
+    color: rgb(255, 190, 91);
+}
+
+.links .sidelink:hover {
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.links .sidelink:active {
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+.viewsidebar {
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: right;
+    clear: right;
+    color: rgba(255, 255, 255, 0.904);
+    margin: 10px;
+}

@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  width: 30%;
+  margin: 100px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;padding: 10px;
+  border-radius: 10px;
+  height: 420px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
+}
+
+.form h1 {
+  margin-bottom: 30px;
+}
+
+.input {
+  width: 80%;
+  margin: 10px auto 20px auto;
+  display: flex;
+  border: 1px solid rgba(117, 117, 117, 0.397);
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.input .icon {
+  width: 10%;
+}
+
+.input input {
+  display: block;
+  width: 90%;
+  padding: 3px 5px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  align-items: center;
+  justify-content: center;
+}
+.form button {
+  height: 40px;
+  border: none;
+  display: flex;
+  width: 80%;
+  position: relative;
+  color: rgba(49, 49, 49, 0.849);
+  margin: 0px auto;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(82, 82, 252, 0.925);
+  color: white;
+}
+
+.form button:hover {
+  background-color: rgba(82, 82, 252, 0.548);
+  height: 45px;
+  /* transition */
+}
+
+.form .extra {
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+
+.form .extra p:nth-child(1) {
+  font-weight: bolder;
+}
+
+.form .extra p:nth-child(2) {
+  font-weight: 200;
+}
+
+.form .extra span {
+  color: rgba(82, 82, 252, 0.925);
+}
+
+.extras {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: blue;
+  left: 19%;
+  top: 8%;
+  border-radius: 2px 20px;
+  /* transition  */
+}
+
+.extras-dec {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: rgb(255, 0, 255);
+  right: 19%;
+  bottom: 21%;
+  border-radius: 2px 20px;
+  /* transition  */
+}
+
+/* sidebar  */
+.sidebar {
+  width: 15%;
+  height: 100%;
+  background-color: rgba(82, 82, 252, 0.925);
+}
+
+@media (max-width: 1000px) {
+  .form {
+    width:50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .form {
+    width: 90%;
+  }
+}
