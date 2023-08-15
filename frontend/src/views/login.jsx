@@ -46,7 +46,7 @@ const Login = () => {
                 <button onClick={handleNavigateToDashboard}>Login</button>
                 <div className="extra">
                     <p>OR</p>
-                    <p>Don't have an account?<span onClick={handleNavigate}>Register</span></p>
+                    <p>Don't have an account?<span className='text' onClick={handleNavigate}>Register</span></p>
                 </div>
             </div>
             <div className="extras-dec"></div>

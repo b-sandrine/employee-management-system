@@ -45,7 +45,7 @@ const Register = () => {
                 <button onClick={handleNavigate}>Register</button>
                 <div className="extra">
                     <p>OR</p>
-                    <p>Already an have account?<span onClick={handleNavigate}>Login</span></p>
+                    <p>Already an have account?<span className="text" onClick={handleNavigate}>Login</span></p>
                 </div>
             </div>
             <div className="extras-dec"></div>

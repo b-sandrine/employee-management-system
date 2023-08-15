@@ -1,8 +1,14 @@
 import '../assets/styles/sidebar.css'
 import { FaHome, FaTasks, FaUsers } from "react-icons/fa";
 import { MdAnalytics, MdCancel, MdHelp, MdLogout, MdSettings } from 'react-icons/md'
+import { useNavigate } from 'react-router';
 
 const Sidebar = () => {
+    const navigate = useNavigate();
+
+    function handleNavigate () {
+        navigate('/login')
+    }
     return (
         <>
             <div className="sidebar">
@@ -35,7 +41,7 @@ const Sidebar = () => {
                             <MdHelp />
                             <p>FAQS</p>
                         </div>
-                        <div className="sidelink logout">
+                        <div className="sidelink logout" onClick={handleNavigate}>
                             <MdLogout />
                             <p>Logout</p>
                         </div>
