@@ -9,6 +9,30 @@ const Sidebar = () => {
     function handleNavigate () {
         navigate('/login')
     }
+
+    function navigateToHome () {
+        navigate('/dashboard')
+    }
+
+    function navigateToEmployees () {
+        navigate('/dashboard/employees')
+    }
+
+    function navigateToTasks () {
+        navigate('/dashboard/tasks')
+    }
+
+    function navigateToAnalytics () {
+        navigate('/dashboard/analytics')
+    }
+
+    function navigateToSettings () {
+        navigate('/dashboard/settings')
+    }
+
+    function navigateToFAQS () {
+        navigate('/dashboard/faqs')
+    }
     return (
         <>
             <div className="sidebar">
@@ -16,28 +40,28 @@ const Sidebar = () => {
                     <MdCancel />
                 </div>
                 <div className="links">
-                    <div className="sidelink">
+                    <div className="sidelink" onClick={navigateToHome}>
                         <FaHome />
                         <p>Home</p>
                     </div>
-                    <div className="sidelink">
+                    <div className="sidelink" onClick={navigateToEmployees}>
                         <FaUsers />
                         <p>Employees</p>
                     </div>
-                    <div className="sidelink">
+                    <div className="sidelink" onClick={navigateToTasks}>
                         <FaTasks />
                         <p>Tasks</p>
                     </div>
-                    <div className="sidelink">
+                    <div className="sidelink"onClick={navigateToAnalytics} >
                         <MdAnalytics />
                         <p>Analytics</p>
                     </div>
                     <div className="lowerlinks">
-                        <div className="sidelink">
+                        <div className="sidelink" onClick={navigateToSettings}>
                             <MdSettings />
                             <p>Settings</p>
                         </div>
-                        <div className="sidelink">
+                        <div className="sidelink" onClick={navigateToFAQS}>
                             <MdHelp />
                             <p>FAQS</p>
                         </div>

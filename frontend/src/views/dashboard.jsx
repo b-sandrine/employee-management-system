@@ -1,13 +1,15 @@
+import { Outlet } from 'react-router'
 import '../assets/styles/dashboard.css'
 import Sidebar from '../components/sidebar'
-import Employees from '../pages/employees'
 
 export default function Dashboard () {
     return (
         <>
             <div className="dashboard">
                 <Sidebar />
-                <Employees />
+                <div className="changing--pages">
+                    <Outlet />
+                </div>
             </div>
         </>
     )

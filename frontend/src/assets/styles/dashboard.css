@@ -3,3 +3,9 @@
     height: 788px;
     display: flex;
 }
+
+.dashboard .changing--pages {
+    width: 80%;
+    position: relative;
+    left: 20px;
+}
