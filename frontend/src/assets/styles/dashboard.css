@@ -5,7 +5,8 @@
 }
 
 .dashboard .changing--pages {
-    width: 80%;
+    width: 85%;
     position: relative;
-    left: 20px;
+    padding-left: 20px;
+    background-color: rgba(231, 235, 238, 0.568);
 }
