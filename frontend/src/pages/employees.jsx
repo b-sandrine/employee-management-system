@@ -5,7 +5,7 @@ const Employees = () => {
     return (
         <>
             <p>Home &gt; Employees</p>
-            <div className="employees">
+            <div className="employees container">
                 <h3>Company Employees</h3>
                 <div className="line"></div>
                 <div className="operations">

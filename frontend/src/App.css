@@ -125,6 +125,11 @@ body {
   background-color: rgba(82, 82, 252, 0.925);
 }
 
+.container {
+  width: 95%;
+  margin: 0 auto 0 0;
+}
+
 @media (max-width: 1000px) {
   .form {
     width:50%;
