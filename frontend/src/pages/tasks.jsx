@@ -2,7 +2,7 @@
 const Tasks = () => {
     return (
         <>
-            <h1>Tasks page</h1>
+            <p>Home &gt; Tasks</p>
         </>
     )
 }

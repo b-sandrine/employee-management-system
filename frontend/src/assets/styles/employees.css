@@ -50,11 +50,11 @@
 
 .employees .operations .buttons {
     position: absolute;
-    right: 5%;
+    right: 3%;
 }
 
 .employees .operations .buttons button {
-    height: 40px;
+    height: 42px;
     width: 150px;
     margin: 0 5px;
     font-size: 16px;

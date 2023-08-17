@@ -2,7 +2,7 @@
 const Analytics = () => {
     return (
         <>
-            <h1>Analytics page</h1>
+            <p>Home &gt; Analytics</p>
         </>
     )
 }

@@ -1,4 +1,4 @@
-import { MdMore, MdMoreHoriz, MdMoreVert, MdSearch } from 'react-icons/md';
+import {MdMoreVert, MdSearch } from 'react-icons/md';
 import '../assets/styles/employees.css'
 
 const Employees = () => {
@@ -42,7 +42,19 @@ const Employees = () => {
                                 <td>Dushimimana Sandrine</td>
                                 <td>Development</td>
                                 <td>(+250) 791 646 583 <br />
-                                    sanrdushimana@gmail.com
+                                sanrdushimana@gmail.com
+                                </td>
+                                <td>2021-10-16</td>
+                                <td>
+                                    <MdMoreVert />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>John Doe</td>
+                                <td>Management</td>
+                                <td>(+250) 791 646 583 <br />
+                                    johndoe@gmail.com
                                 </td>
                                 <td>2022-09-06</td>
                                 <td>
