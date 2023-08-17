@@ -8,9 +8,15 @@ const Employees = () => {
             <div className="employees">
                 <h3>Company Employees</h3>
                 <div className="line"></div>
-                <div className="input">
-                    <input type="search" name="" id="" placeholder='Search Employees' />
-                    <MdSearch className='icon'/>
+                <div className="options">
+                    <div className="input">
+                        <input type="search" name="" id="" placeholder='Search Employees' />
+                        <MdSearch className='icon' />
+                    </div>
+                    <select name="" id="">
+                        <option value="1">Active</option>
+                        <option value="2">Away</option>
+                    </select>
                 </div>
             </div>
         </>
