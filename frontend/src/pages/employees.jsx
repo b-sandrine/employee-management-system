@@ -24,6 +24,22 @@ const Employees = () => {
                         <button>Import Employee</button>
                     </div>
                 </div>
+                <div className="table">
+                    <table id="myTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Names</th>
+                                <th>Department</th>
+                                <th>Contact</th>
+                                <th>Hire Date</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </>
     )
