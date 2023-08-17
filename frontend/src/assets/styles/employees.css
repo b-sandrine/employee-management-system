@@ -14,26 +14,31 @@
     background-color: rgba(219, 214, 214, 0.342);
 }
 
-.employees .options {
+.employees .operations {
     display: flex;
+    width: 100%;
     margin-top: 10px;
 }
 
-.employees .options .input {
-    width: 20%;
+.employees .operations .options {
+    display: flex;
+}
+
+.employees .operations .options .input {
+    width: 60%;
     margin: 0;
 }
 
-.employees .options .input input {
+.employees .operations .options .input input {
     background-color: rgba(255, 255, 255, 0.562);
 }
 
-.employees  .options .input .icon {
+.employees .operations .options .input .icon {
     font-size: 23px;
     margin-right: 3px;
 }
 
-.employees .options select {
+.employees .operations .options select {
     background-color: white;
     border: 1px solid rgba(117, 117, 117, 0.397);
     height: 412x;
@@ -41,4 +46,17 @@
     padding: 0 10px;
     border-radius: 5px;
     font-size: 18px;
+}
+
+.employees .operations .buttons {
+    position: absolute;
+    right: 5%;
+}
+
+.employees .operations .buttons button {
+    height: 40px;
+    width: 150px;
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: 500;
 }
